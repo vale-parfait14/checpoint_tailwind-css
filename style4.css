@@ -1,0 +1,106 @@
+body{
+    font-family: "Tapestry", serif;
+
+    background-color: whitesmoke;
+    background-image: url("C:/Users/ozova/Downloads/téléchargement (2).jfif");
+    margin: 10px;
+    
+}
+
+main{
+    color: white;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+#hero{
+    background-image: url("C:/Users/ozova/Downloads/téléchargement (2).jfif");
+}
+
+
+section{
+    justify-content: center;
+    margin: 100px;
+    border: 10px solid black;
+}
+
+@media screen and (max-width:767px) {
+    section div img{
+        display: none;
+    }
+    section div p {
+        font-size: 15px;
+    }
+    
+}
+.pop{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width:770px) {
+    .pop{
+        display: block;
+        justify-content: center;
+        align-items: center;
+       padding-top: 10px;
+        text-align: center;
+
+       
+        
+    }
+}
+
+@media screen and (max-width:654px) {
+    input{
+        width: 300px;
+        padding-top: 3px;
+        justify-content: center;
+        align-items: center;
+    }
+    textarea{
+        width: 300px;
+    }
+}
+@media screen and (max-width:554px) {
+    input{
+        width: 200px;
+        padding-top: 3px;
+        justify-content: center;
+        align-items: center;
+    }
+    textarea{
+        width: 200px;
+        
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width:464px) {
+    input{
+        width: 150px;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    textarea{
+        width: 150px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.btn{
+    background-color:grey;
+    padding: 5px;
+
+    border-radius: 15px;
+    color: white;
+    width: 100px;
+    height: 10px;
+    text-align: center;
+   justify-content: center;
+}
